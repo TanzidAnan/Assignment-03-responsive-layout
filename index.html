@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
 </head>
-<body>
-    
+
+<body class="manrope">
+    <!-- header section -->
+    <header class="container mx-auto">
+        <!-- nav section -->
+        <nav class="flex justify-between items-center py-7 px-3">
+            <div class="flex items-center gap-2 px-2">
+                <div class="rounded-full bg-green-600 w-8 h-8 flex justify-center items-center">
+                    <i class="fa-solid fa-arrow-up text-2xl rotate-45"></i>
+                </div>
+                <h3 class="text-2xl font-bold">Rinterio</h3>
+            </div>
+            <div
+                class="md:static absolute text-[#737373] min-h-fit md:w-auto md:min-h-[6vh] left-0 top-[-100%] w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-8 gap-8">
+                    <li>
+                        <a href="" class="hover:text-[#494949]">Home</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover:text-[#494949]">Services</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover:text-[#494949]">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover:text-[#494949]">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="" class="hover:text-[#494949]">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-7">
+                <i class="fa-solid fa-magnifying-glass hidden md:block lg:block shadow-lg p-2 rounded-full"></i>
+                <i class="fa-solid fa-cart-plus hidden md:block lg:block shadow-lg p-2 rounded-full"></i>
+                <button class="bg-[#ABEF5F] rounded-3xl font-bold px-4 py-2 hidden md:block  lg:block">
+                    Book Consult <i
+                        class="fa-solid fa-arrow-up text-1xl rotate-45 bg-black text-white w-5 rounded-full h-5 ml-2"></i></button>
+                <i class="fa-solid fa-bars text-3xl cursor-pointer md:hidden lg:hidden"></i>
+            </div>
+        </nav>
+        
+    </header>
+    <!-- main section -->
+    <main>
+        <h1>tanzid</h1>
+    </main>
+    <!-- footer section -->
+    <footer>
+
+    </footer>
 </body>
+
 </html>
