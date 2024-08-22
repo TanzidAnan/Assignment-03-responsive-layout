@@ -211,15 +211,17 @@
                         </button>
                     </div>
                 </div>
-                <div class="grid justify-center lg:justify-end px-8 py-7 w-full rounded-md shadow-md lg:shadow-none">
+                <div class="grid justify-center lg:justify-end  lg:px-0 py-7 w-full rounded-md shadow-md lg:shadow-none">
                     <img class="w-full px-4 py-4 lg:justify-end" src="assets/img2.png" alt="">
 
                 </div>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between text-center mx-8 mt-6">
-                <div class="p-3 rounded-xl shadow-xl lg:shadow">
+                <!-- ===== -->
+                <div class="p-3 rounded-xl shadow-xl lg:shadow order-2 lg:order-none">
                     <img class="w-full lg:w-auto" src="assets/img3.png" alt="">
                 </div>
+                <!-- ====== -->
                 <div class="grid grid-cols-1 lg:grid-cols-2 text-start gap-6 p-3 rounded-xl shadow-xl lg:shadow">
                     <div>
                         <img class="w-full" src="assets/img4.png" alt="">
@@ -233,14 +235,30 @@
                         </button>
                     </div>
                 </div>
+                <!-- ====== -->
                 <div class="grid justify-center lg:justify-end p-3 rounded-xl shadow-xl lg:shadow-md ">
                     <img class="w-full lg:w-auto" src="assets/img5.png" alt="">
                 </div>
             </div>
         </section>
+        <!-- Founder of Company -->
+         <section class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 justify-center items-center mx-6  lg:p-0 bg-black ">
+                <div class="text-end  space-y-5 pr-8 pl-1  text-[#737373] pt-3 ">
+                    <p class=" text-xl lg:text-2xl">"Even if you don't have a ready sketch of <br>
+                        what you want - We will help you to get the <br>
+                        result you dreamed of."</p>
+                    <h4 class="text-3xl font-extrabold">-John Davine-</h4>
+                    <p class="text-lg">Founder of Company</p>
+                </div>
+                <div class="">
+                    <img src="assets/abouttal (1).jpg" alt="">
+                </div>
+            </div>
+         </section>
         <!-- contact section -->
         <section>
-            <div class="hero " style="background-image: url(assets/bg.jpg);">
+            <div class="hero w-full" style="background-image: url(assets/bg.jpg);">
                 <div class="hero-overlay"></div>
                 <div class="hero-content text-center py-24">
                     <div class="max-w-full">
@@ -266,11 +284,11 @@
                                     class="input input-bordered rounded-full w-full max-w-full" />
                             </div>
                             <div class="mt-8 w-full">
-                                <textarea placeholder="Bio"
+                                <textarea placeholder="Write your message here"
                                     class="textarea textarea-bordered textarea-lg w-full max-w-64 lg:max-w-2xl"></textarea>
                             </div>
                             <div class="w-[70%] lg:w-[86%] ml-14 lg:ml-14 text-center  mt-5">
-                                <button class="btn w-full inline bg-[#ABEF5F] border-none">Button <i
+                                <button class="btn w-full rounded-full inline bg-[#ABEF5F] border-none text-lg">Send Mail <i
                                         class="fa-solid fa-arrow-up text-1xl rotate-45 bg-black text-white rounded-full ml-2 p-2"></i></button>
                             </div>
                         </div>
@@ -289,7 +307,8 @@
                     </div>
                     <h3 class="text-2xl font-bold">Rinterio</h3>
                 </div>
-                <p class="text-[#737373] lg:w-[650px] w-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <p class="text-[#737373] lg:w-[650px] w-auto">The barn house captivates with its blend of rustic charm
+                    and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 <ul class="flex flex-col lg:flex-row gap-7 text-[#E9E9E9]">
                     <li>Home</li>
                     <li>Services</li>
@@ -300,7 +319,8 @@
             </aside>
             <nav>
                 <div class="grid grid-flow-col gap-4">
-                    <button class="btn border-none bg-[#ABEF5F] w-full lg:w-auto rounded-3xl font-bold">View Details<i class="fa-solid fa-arrow-up text-2xl rotate-45 text-black"></i></button>
+                    <button class="btn border-none bg-[#ABEF5F] w-full lg:w-auto rounded-3xl font-bold">Book Consult<i
+                            class="fa-solid fa-arrow-up text-2xl rotate-45 text-black"></i></button>
                 </div>
             </nav>
         </footer>
